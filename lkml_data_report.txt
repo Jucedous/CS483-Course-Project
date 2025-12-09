@@ -1,0 +1,121 @@
+
+LKML data inspection in root: /data/home/zilinzhao/all
+======================================================
+
+FOLDER: /data/home/zilinzhao/all/0_event_json_data
+==================================================
+  Total files found: 593114
+  Total size (approx): 18557.44 MB
+  Inspecting 5 sample files:
+
+Sample file: lkml_2022_4_5_39.json
+----------------------------------
+  Top-level type: dict
+  Top-level keys: ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+ (dict, 5 keys): ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+  event_id (str, len=16): 'lkml_2022_4_5_39'
+  root_url (str, len=33): 'https://lkml.org/lkml/2022/4/5/39'
+  ... (3 more keys not shown)
+
+Sample file: lkml_2022_9_2_1334.json
+------------------------------------
+  Top-level type: dict
+  Top-level keys: ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+ (dict, 5 keys): ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+  event_id (str, len=18): 'lkml_2022_9_2_1334'
+  root_url (str, len=35): 'https://lkml.org/lkml/2022/9/2/1334'
+  ... (3 more keys not shown)
+
+Sample file: lkml_2019_9_30_517.json
+------------------------------------
+  Top-level type: dict
+  Top-level keys: ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+ (dict, 5 keys): ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+  event_id (str, len=18): 'lkml_2019_9_30_517'
+  root_url (str, len=35): 'https://lkml.org/lkml/2019/9/30/517'
+  ... (3 more keys not shown)
+
+Sample file: lkml_2021_6_13_284.json
+------------------------------------
+  Top-level type: dict
+  Top-level keys: ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+ (dict, 5 keys): ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+  event_id (str, len=18): 'lkml_2021_6_13_284'
+  root_url (str, len=35): 'https://lkml.org/lkml/2021/6/13/284'
+  ... (3 more keys not shown)
+
+Sample file: lkml_2022_9_6_1727.json
+------------------------------------
+  Top-level type: dict
+  Top-level keys: ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+ (dict, 5 keys): ['event_id', 'root_url', 'message_count', 'messages', 'connections']
+  event_id (str, len=18): 'lkml_2022_9_6_1727'
+  root_url (str, len=35): 'https://lkml.org/lkml/2022/9/6/1727'
+  ... (3 more keys not shown)
+
+Aggregated top-level key frequencies (sample)
+---------------------------------------------
+  event_id: 5
+  root_url: 5
+  message_count: 5
+  messages: 5
+  connections: 5
+
+FOLDER: /data/home/zilinzhao/all/1_series_json_data
+===================================================
+  Total files found: 447463
+  Total size (approx): 176.38 MB
+  Inspecting 5 sample files:
+
+Sample file: series_lkml_2025_7_3_1578.json
+-------------------------------------------
+  Top-level type: dict
+  Top-level keys: ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+ (dict, 5 keys): ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+  series_id (str, len=18): 'lkml_2025_7_3_1578'
+  subject (str, len=70): 'wireless: Use of_reserved_mem_region_to_resource() for "memory-region"'
+  ... (3 more keys not shown)
+
+Sample file: series_lkml_2021_8_12_345.json
+-------------------------------------------
+  Top-level type: dict
+  Top-level keys: ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+ (dict, 5 keys): ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+  series_id (str, len=18): 'lkml_2021_8_12_345'
+  subject (str, len=40): 'debugobjects: Make them PREEMPT_RT aware'
+  ... (3 more keys not shown)
+
+Sample file: series_lkml_2016_3_25_44.json
+------------------------------------------
+  Top-level type: dict
+  Top-level keys: ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+ (dict, 5 keys): ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+  series_id (str, len=17): 'lkml_2016_3_25_44'
+  subject (str, len=37): 'powerpc: correct VSX used_vsr comment'
+  ... (3 more keys not shown)
+
+Sample file: series_lkml_2022_6_4_318.json
+------------------------------------------
+  Top-level type: dict
+  Top-level keys: ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+ (dict, 5 keys): ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+  series_id (str, len=17): 'lkml_2022_6_4_318'
+  subject (str, len=22): 'several namei cleanups'
+  ... (3 more keys not shown)
+
+Sample file: series_lkml_2022_6_28_652.json
+-------------------------------------------
+  Top-level type: dict
+  Top-level keys: ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+ (dict, 5 keys): ['series_id', 'subject', 'topic_type', 'variants', 'connections']
+  series_id (str, len=18): 'lkml_2022_6_28_652'
+  subject (str, len=58): 'net: pcs-rzn1-miic: fix return value check in miic_probe()'
+  ... (3 more keys not shown)
+
+Aggregated top-level key frequencies (sample)
+---------------------------------------------
+  series_id: 5
+  subject: 5
+  topic_type: 5
+  variants: 5
+  connections: 5

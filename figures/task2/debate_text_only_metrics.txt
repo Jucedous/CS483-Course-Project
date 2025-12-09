@@ -1,0 +1,18 @@
+[text_only] train: AUC=0.884, AP=0.438, best_F1_long=0.497 at thr=0.60
+[text_only] val: AUC=0.776, AP=0.283, best_F1_long=0.361 at thr=0.60
+[text_only] test: AUC=0.777, AP=0.289, best_F1_long=0.366 at thr=0.60
+
+[text_only] Test classification report (thr=0.60):
+
+              precision    recall  f1-score   support
+
+       short      0.931     0.840     0.884    158022
+        long      0.286     0.508     0.366     19908
+
+    accuracy                          0.803    177930
+   macro avg      0.609     0.674     0.625    177930
+weighted avg      0.859     0.803     0.826    177930
+
+[text_only] ROC curve saved to /data/home/zilinzhao/all/figures/task2/debate_text_only_roc.png
+[text_only] PR curve saved to /data/home/zilinzhao/all/figures/task2/debate_text_only_pr.png
+

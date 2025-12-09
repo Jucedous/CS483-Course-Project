@@ -1,0 +1,24 @@
+=== Validation ===
+              precision    recall  f1-score   support
+
+       PATCH      0.995     0.966     0.980    473446
+       OTHER      0.905     0.974     0.938     83793
+      REVIEW      0.278     0.933     0.429      2025
+         ACK      0.340     0.956     0.502      1604
+
+    accuracy                          0.967    560868
+   macro avg      0.630     0.957     0.712    560868
+weighted avg      0.977     0.967     0.971    560868
+
+
+=== Test ===
+              precision    recall  f1-score   support
+
+       PATCH      0.996     0.965     0.980    482648
+       OTHER      0.904     0.974     0.938     83646
+      REVIEW      0.281     0.937     0.433      2174
+         ACK      0.308     0.946     0.465      1595
+
+    accuracy                          0.966    570063
+   macro avg      0.622     0.956     0.704    570063
+weighted avg      0.977     0.966     0.970    570063
