@@ -1,4 +1,4 @@
-# LKML Thread Analysis: Dynamics, Role Modeling, and Summarization (Tasks 1–3)
+# LKML Thread Analysis: Dynamics, Role Modeling, and Summarization
 
 This repository implements an end-to-end pipeline for analyzing Linux Kernel Mailing List (LKML) discussion threads. It is organized as three tasks built on top of a preprocessing stage that converts raw LKML JSON dumps into compact, analysis-friendly tables.
 
@@ -17,7 +17,7 @@ Given raw LKML thread data:
    - Cluster threads by topology (K-means) and analyze cluster properties
 
 3. **Task 2 — Text-based prediction**
-   - **Task 2a:** Predict a message “role” (PATCH / REVIEW / ACK / OTHER) from text using weak supervision
+   - **Task 2a:** Predict a message “role” (PATCH / REVIEW / ACK / OTHER) from text using supervision
    - **Task 2b:** Predict whether a thread becomes a *long debate* from the root email text only
 
 4. **Task 3 — Role-informed extractive summarization**
